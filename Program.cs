@@ -18,15 +18,17 @@ namespace task1
             // string name=Console.ReadLine();
             //Console.WriteLine("welcome" + " " + name);
 
-            //22-	Define variables with kind of
+            //2 -	Define variables with kind of
 
-            int num = 5;
-            double number = 5.11;
-            string name = "ali";
-            char x = 'A';
-            bool a = true;
-            const int j = 10;
-            Console.WriteLine( num+" "+number+" "+name+" "+x+" "+a+" "+j);
+            //int num = 5;
+            //double number = 5.11;
+            //string name = "ali";
+            //char x = 'A';
+            //bool a = true;
+            //const int j = 10;
+            //Console.WriteLine( num+" "+number+" "+name+" "+x+" "+a+" "+j);
+
+            //
 
 
         }
