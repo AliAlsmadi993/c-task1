@@ -18,7 +18,7 @@ namespace task1
             // string name=Console.ReadLine();
             //Console.WriteLine("welcome" + " " + name);
 
-            //2 -	Define variables with kind of
+            //2 -	Define variables with kind of*****************************************************************************************************
 
             //int num = 5;
             //double number = 5.11;
@@ -28,8 +28,45 @@ namespace task1
             //const int j = 10;
             //Console.WriteLine( num+" "+number+" "+name+" "+x+" "+a+" "+j);
 
-            //
+            //3-	Define array with name car that hold more than 3 kinds on cars, then print all the cars with the array length******************************
 
+            //string[] car = { "bmw", "kia", "mer" };
+            //foreach (string s in car)
+            //{
+            //    Console.WriteLine(s);
+
+            //}
+
+
+            //4*******************************************************************************************************************************
+
+
+            //Console.WriteLine("enter your first name");
+            //string firstName = Console.ReadLine();
+
+
+            //Console.WriteLine("enter your last name");
+            //string lastName = Console.ReadLine();
+
+            //Console.WriteLine("enter your age");
+            //int age =Convert.ToInt32 ( Console.ReadLine());
+
+            //Console.WriteLine(firstName + " " + lastName +" "+age);
+
+
+            //5-**********************************************************************************************************************************************
+
+            int[] array = new int[10];
+            for (int i = 0; i < array.Length; i++) {
+
+                array[i] = int.Parse(Console.ReadLine());
+
+}
+            foreach (int i in array) { 
+
+            Console.WriteLine(i);
+
+            }
 
         }
     }
