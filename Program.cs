@@ -11,63 +11,69 @@ namespace task1
     {
         static void Main(string[] args)
         {
-            // 1 - Create console application that read string from user and print the same string
+            // Task 1: Create console application that reads string from user and prints it
+            /*
+            Console.WriteLine("enter your name");
+            string name = Console.ReadLine();
+            Console.WriteLine("welcome" + " " + name);
+            */
 
+            // Task 2: Define variables and print them
+            /*
+            int num = 5;
+            double number = 5.11;
+            string name = "ali";
+            char x = 'A';
+            bool a = true;
+            const int j = 10;
+            Console.WriteLine(num + " " + number + " " + name + " " + x + " " + a + " " + j);
+            */
 
-            //Console.WriteLine("enter your name");
-            // string name=Console.ReadLine();
-            //Console.WriteLine("welcome" + " " + name);
+            // Task 3: Define array with cars and print them
+            /*
+            string[] car = { "bmw", "kia", "mer" };
+            foreach (string s in car)
+            {
+                Console.WriteLine(s);
+            }
+            */
 
-            //2 -	Define variables with kind of*****************************************************************************************************
+            // Task 4: Collect user details and print them
+            /*
+            Console.WriteLine("enter your first name");
+            string firstName = Console.ReadLine();
 
-            //int num = 5;
-            //double number = 5.11;
-            //string name = "ali";
-            //char x = 'A';
-            //bool a = true;
-            //const int j = 10;
-            //Console.WriteLine( num+" "+number+" "+name+" "+x+" "+a+" "+j);
+            Console.WriteLine("enter your last name");
+            string lastName = Console.ReadLine();
 
-            //3-	Define array with name car that hold more than 3 kinds on cars, then print all the cars with the array length******************************
+            Console.WriteLine("enter your age");
+            int age = Convert.ToInt32(Console.ReadLine());
 
-            //string[] car = { "bmw", "kia", "mer" };
-            //foreach (string s in car)
+            Console.WriteLine(firstName + " " + lastName + " " + age);
+            */
+
+            // Task 5: Input array elements and print them
+
+            //int[] array = new int[10];
+
+            //Console.WriteLine("Input 10 elements in the array:");
+            //for (int i = 0; i < array.Length; i++)
             //{
-            //    Console.WriteLine(s);
-
+            //    Console.Write($"element - {i} : ");
+            //    array[i] = int.Parse(Console.ReadLine());
             //}
 
+            //Console.WriteLine("\nElements in array are: ");
+            //foreach (int element in array)
+            //{
+            //    Console.Write(element + " ");
+            //}
 
-            //4*******************************************************************************************************************************
-
-
-            //Console.WriteLine("enter your first name");
-            //string firstName = Console.ReadLine();
-
-
-            //Console.WriteLine("enter your last name");
-            //string lastName = Console.ReadLine();
-
-            //Console.WriteLine("enter your age");
-            //int age =Convert.ToInt32 ( Console.ReadLine());
-
-            //Console.WriteLine(firstName + " " + lastName +" "+age);
+            //Console.ReadLine();
 
 
-            //5-**********************************************************************************************************************************************
 
-            int[] array = new int[10];
-            for (int i = 0; i < array.Length; i++) {
-
-                array[i] = int.Parse(Console.ReadLine());
-
-}
-            foreach (int i in array) { 
-
-            Console.WriteLine(i);
-
-            }
 
         }
-    }
+}
 }
