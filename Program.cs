@@ -59,6 +59,7 @@ namespace task1
             int age = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine(firstName + " " + lastName + " " + age);
+            Console.WriteLine(firstName + " " + lastName + " " + age);
             
 
 
